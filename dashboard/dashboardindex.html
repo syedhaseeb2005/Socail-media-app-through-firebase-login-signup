@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dashboardstyle.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <h2>Posting Web</h2>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link"><img class="img-1" src="../assests/images.png" alt=""></a>        
+                <nav class="navbar-1 hidden">
+                    <ul class="menu">
+                        <li><a class="dropdown-item d-flex" href="#"><i class="fa-solid fa-user"></i>
+                          <h5>Profile</h5></a>
+                        </li>
+                        <li><a class="dropdown-item d-flex" href=""><i class="fa-solid fa-right-from-bracket"></i><button style="background: none;border: none;color: #fff;"class="logout-btn"><h5>logout</h5></button>
+                          </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-center" href="../EditProfile/editprofile.html">EditProfile</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- <div class="dropdown">
+                    <button class="btn" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                    </ul>
+                  </div> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+                    <!--left part  -->
+    <div class="row">
+        <div class="col leftPart boxStyle">
+            <img class="img-2" src="../assests/images.png" width="50px" class="profilePicture" alt="">
+            <h5 id="userName" style="margin-top: 10px;">User Name</h5>
+            <h5 id="emailAddress">User Email</h5>
+            <h5 id="firstName">First Name</h6>
+            <h5 id="lastName">last Name</h6>
+        </div>
+
+
+        <!-- mid part -->
+        <div class="col-6 midPart">
+            <div class="input-field d-flex">
+                <div class="search-box">
+                    <input type="text" class="inputPost" id="postinput" placeholder="Whats in your Mind!">
+                    <button class="post-btn">Post</button>
+                    <input type="file" placeholder="Choose file" class="upload-img">
+                </div>
+            </div>
+            <div class="Posting-part box">
+                <div class="d-flex flex-column"> 
+                    <img src="../assests/images.png" width="70px" alt="">
+                    <h5 id="user">User Name</h5>
+                    <h5 id="email">User email</h5>
+                    <h5 id="time">10 h</h5>
+                    <hr>
+                    <h4 class="Inputtext">Input text</h4>
+                    <img src="../assests/download.jpg" style="object-fit: cover;margin-top: 10px;" alt="">
+                    <div class="forlike">
+                        <i class="fa-regular fa-heart"><span style="margin-left: 5px;">20</span></i>
+                        <span style="display: flex;justify-content: space-between;">
+                            <h5 style="margin-top: 15px;margin-right: 10px;">20 comment</h5>
+                            <h5 style="margin-top: 15px; ">20 shares</h5>
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="for-like-comment-share">
+                        <i class="fa-regular fa-heart"><span style="margin-left: 5px;">Likes</span></i>
+                        <i class="fa-regular fa-comment" style="margin-top: 20px;"><span style="margin-left: 5px;">Comment</span></i>
+                        <i class="fa-solid fa-share" style="margin-top: 20px;"><span style="margin-left: 5px;">Share</span></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col rightPart">
+asdsdas;dk
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="dashboardapp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<!-- <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+       
+      
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="mera-nav2">
+                   <li class="nav-item">
+                    
+                    </li> 
+                </div>
+            </ul>
+    </div>
+</nav> -->
