@@ -105,7 +105,7 @@ async function signbtnhandler(){
             alert("you are signup success")
             
         } catch (e) {
-            console.error(e);
+            console.log(e);
         }
         modal.classList.toggle('hidden')
         overlay.classList.toggle('hidden')

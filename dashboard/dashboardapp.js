@@ -62,7 +62,8 @@ function logoutBtnHanlder(){
         // Sign-out successful.
         console.log("signout successfully")
         window.location.href = '../index.html'
-    }).catch((error) => {
+    }).catch((err) => {
+        console.log(err);
         // An error happened.
     });
 }
@@ -87,8 +88,8 @@ async function getuserdata(uid){
         }else{
             console.log('kuch nahi mil rahah')
         }       
-    }catch(error){
-        console.log(error)
+    }catch(err){
+        console.log(err);
     }
 }
 
@@ -215,8 +216,8 @@ async function getPosts(){
             postElement.innerHTML = content
             PostingPart.appendChild(postElement)
         })
-    } catch (error) {
-        console.log(error)  
+    } catch (err) {
+        console.log(err);  
     }
 }
 
